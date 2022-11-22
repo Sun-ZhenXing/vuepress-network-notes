@@ -4,12 +4,19 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 
 const USER_NAME = 'Sun-ZhenXing'
-const BASE_PATH = '/vuepress-solid-template/'
+const BASE_PATH = '/vuepress-network-notes/'
 
 export default defineUserConfig({
-  lang: 'en-US',
-  title: 'Vuepress Solid Template',
-  description: 'Best Vuepress Template',
+  lang: 'zh-CN',
+  title: '计算机网络笔记合集',
+  description: '计算机网络笔记',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: '计算机网络笔记合集',
+      description: '计算机网络笔记',
+    }
+  },
   head: [
     ['link', { rel: 'icon', href: `${BASE_PATH}favicon.svg` }]
   ],
@@ -22,27 +29,12 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.svg',
     repo: `${USER_NAME}${BASE_PATH}`,
+    editLinkText: '在 GitHub 上编辑此页',
+    contributorsText: '贡献者',
+    lastUpdatedText: '上次更新',
     navbar: [
-      {
-        text: 'Demo for Vuepress Solid',
-        children: [
-          {
-            text: 'Vuepress Solid Template',
-            link: '/demo/'
-          }
-        ]
-      }
     ],
     sidebar: {
-      '/demo/': [
-        {
-          text: 'Demo',
-          children: [
-            '/demo/page01.md',
-            '/demo/page02.md',
-          ]
-        }
-      ]
     }
   }),
   plugins: [
@@ -65,7 +57,8 @@ export default defineUserConfig({
       mermaid: true,
       delay: 200,
     }),
-    searchPlugin({}),
+    searchPlugin({
+    }),
     copyCodePlugin({
       showInMobile: true,
     }),
