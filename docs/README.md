@@ -3,7 +3,7 @@ home: true
 heroImage: /favicon.svg
 actions:
   - text: 开始阅读
-    link: /
+    link: /network-basic/
     type: primary
 features:
   - title: VuePress
@@ -12,3 +12,9 @@ footer: 计算机网络笔记合集，由 @Sun-ZhenXing 创建
 ---
 
 # 计算机网络笔记
+
+## [计算机网络基础](./network-basic/)
+
+## [网络参考模型](./reference-model/)
+
+## [应用层协议](./application-layer-protocol/)

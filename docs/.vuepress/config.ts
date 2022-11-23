@@ -33,8 +33,26 @@ export default defineUserConfig({
     contributorsText: '贡献者',
     lastUpdatedText: '上次更新',
     navbar: [
+      {
+        text: '合集',
+        children: [
+          '/network-basic/',
+        ]
+      }
     ],
     sidebar: {
+      '/network-basic/': [
+        {
+          text: '计算机网络基础',
+          children: [
+            '/network-basic/chapter01/',
+            '/network-basic/chapter02/',
+            '/network-basic/chapter03/',
+            '/network-basic/chapter04/',
+            '/network-basic/chapter05/',
+          ]
+        }
+      ]
     }
   }),
   plugins: [
@@ -56,6 +74,18 @@ export default defineUserConfig({
       katex: true,
       mermaid: true,
       delay: 200,
+      stylize: [
+        {
+          matcher: '@def',
+          replacer: ({ tag }) => {
+            if (tag === 'em') return {
+              tag: 'Badge',
+              attrs: { type: 'tip', vertical: 'middle' },
+              content: '定义'
+            }
+          }
+        }
+      ]
     }),
     searchPlugin({
     }),
