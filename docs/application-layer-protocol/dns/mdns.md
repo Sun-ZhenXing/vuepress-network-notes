@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: mDNS 协议
 description: 介绍 mDNS 协议
 ---
@@ -22,7 +21,7 @@ description: 介绍 mDNS 协议
 
 mDNS 协议规定了消息的基本格式和消息的收发的基本顺序，DNS-SD 协议在这基础上，首先对实例名，服务名称，域名长度或顺序等作出了具体的定义，然后规定了如何方便地进行服务发现和描述。
 
-详情阅读 [DNS-SD 协议](./dns-sd.md) 。
+详情阅读 [DNS-SD 协议](./dns-sd.md)。
 
 :::
 

@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: 第 5 章：网络参考模型与标准协议
 description: 介绍网络参考模型与其中的标准协议
 ---

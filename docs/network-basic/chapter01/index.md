@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: 第 1 章：通信与网络
 description: 通信和网络的基本概念，以及其网络各部分功能
 ---

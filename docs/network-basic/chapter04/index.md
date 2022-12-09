@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: 第 4 章：应用和数据
 description: 应用和数据的定义
 ---

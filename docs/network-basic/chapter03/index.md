@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: 第 3 章：网络工程与网络工程师
 description: 介绍网络工程和网络工程师的定义
 ---

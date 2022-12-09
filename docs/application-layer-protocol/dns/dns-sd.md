@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: DNS-SD 协议
 description: 介绍 DNS-SD 协议
 ---
