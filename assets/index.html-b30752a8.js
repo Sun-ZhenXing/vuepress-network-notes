@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-51bf5977","path":"/network-basic/chapter04/","title":"第 4 章：应用和数据","lang":"zh-CN","frontmatter":{"title":"第 4 章：应用和数据","description":"应用和数据的定义"},"headers":[],"git":{"updatedTime":1670555839000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":3}]},"filePathRelative":"network-basic/chapter04/index.md"}');export{t as data};
