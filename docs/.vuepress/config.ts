@@ -39,8 +39,8 @@ export default defineUserConfig({
         text: '合集',
         children: [
           '/application-layer-protocol/',
-          '/browser/',
           '/network-basic/',
+          '/browser/',
           '/reference-model/',
           '/other-common-protocols/',
         ]
@@ -85,6 +85,15 @@ export default defineUserConfig({
         }
       ],
       '/reference-model/': [],
+      '/browser/': [
+        {
+          text: '浏览器相关',
+          children: [
+            '/browser/event-mechanism/',
+            '/browser/security/'
+          ]
+        }
+      ]
     }
   }),
   plugins: [
