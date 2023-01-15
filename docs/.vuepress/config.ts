@@ -40,7 +40,7 @@ export default defineUserConfig({
         children: [
           '/application-layer-protocol/',
           '/network-basic/',
-          '/browser-related/',
+          '/browser/',
           '/reference-model/',
           '/other-common-protocols/',
         ]
@@ -85,11 +85,12 @@ export default defineUserConfig({
         }
       ],
       '/reference-model/': [],
-      '/browser-related/': [
+      '/browser/': [
         {
           text: '浏览器相关',
           children: [
-            '/browser-related/event-mechanism/'
+            '/browser/event-mechanism/',
+            '/browser/security/'
           ]
         }
       ]
