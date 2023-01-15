@@ -38,7 +38,11 @@ export default defineUserConfig({
       {
         text: '合集',
         children: [
+          '/application-layer-protocol/',
+          '/browser/',
           '/network-basic/',
+          '/reference-model/',
+          '/other-common-protocols/',
         ]
       }
     ],
