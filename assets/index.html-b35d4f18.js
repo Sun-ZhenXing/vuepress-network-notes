@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-10f5ccef","path":"/browser/security/","title":"浏览器安全策略","lang":"zh-CN","frontmatter":{"title":"浏览器安全策略","description":"浏览器安全策略"},"headers":[],"git":{"updatedTime":1673770719000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"browser/security/index.md"}');export{e as data};
