@@ -43,6 +43,22 @@ export default defineUserConfig({
       }
     ],
     sidebar: {
+      '/application-layer-protocol/': [
+        {
+          text: '应用层协议',
+          children: [
+            {
+              text: 'DNS',
+              collapsible: true,
+              children: [
+                '/application-layer-protocol/dns/',
+                '/application-layer-protocol/dns/dns-sd/',
+                '/application-layer-protocol/dns/mdns/',
+              ]
+            }
+          ]
+        }
+      ],
       '/network-basic/': [
         {
           text: '计算机网络基础',
@@ -54,7 +70,16 @@ export default defineUserConfig({
             '/network-basic/chapter05/',
           ]
         }
-      ]
+      ],
+      '/other-common-protocols/': [
+        {
+          text: '其他常用协议',
+          children: [
+            '/other-common-protocols/socks5/',
+          ]
+        }
+      ],
+      '/reference-model/': [],
     }
   }),
   plugins: [

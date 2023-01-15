@@ -3,7 +3,7 @@ home: true
 heroImage: /favicon.svg
 actions:
   - text: 开始阅读
-    link: /network-basic/
+    link: '#计算机网络笔记'
     type: primary
 features:
   - title: VuePress
