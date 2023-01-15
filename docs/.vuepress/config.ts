@@ -58,6 +58,7 @@ export default defineUserConfig({
                 '/application-layer-protocol/dns/',
                 '/application-layer-protocol/dns/dns-sd/',
                 '/application-layer-protocol/dns/mdns/',
+                '/application-layer-protocol/http/',
               ]
             }
           ]
