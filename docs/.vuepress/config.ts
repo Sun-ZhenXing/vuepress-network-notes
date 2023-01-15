@@ -2,6 +2,7 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
+import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
 
 const USER_NAME = 'Sun-ZhenXing'
 const BASE_PATH = '/vuepress-network-notes/'
@@ -70,7 +71,7 @@ export default defineUserConfig({
       sup: true,
       footnote: true,
       mark: true,
-      imageLazyload: true,
+      imgLazyload: true,
       tasklist: true,
       katex: true,
       mermaid: true,
@@ -88,10 +89,10 @@ export default defineUserConfig({
         }
       ]
     }),
-    searchProPlugin({
-    }),
+    searchProPlugin({}),
+    autoCatalogPlugin({}),
     copyCodePlugin({
-      showInMobile: true,
-    }),
+      showInMobile: true
+    })
   ]
 })
