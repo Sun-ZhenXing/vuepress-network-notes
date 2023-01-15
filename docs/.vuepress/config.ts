@@ -39,6 +39,7 @@ export default defineUserConfig({
         text: '合集',
         children: [
           '/network-basic/',
+          '/browser-related/'
         ]
       }
     ],
@@ -80,6 +81,14 @@ export default defineUserConfig({
         }
       ],
       '/reference-model/': [],
+      '/browser-related/': [
+        {
+          text: '浏览器相关',
+          children: [
+            '/browser-related/event-mechanism/'
+          ]
+        }
+      ]
     }
   }),
   plugins: [
