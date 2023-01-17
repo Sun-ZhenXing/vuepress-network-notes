@@ -90,7 +90,13 @@ export default defineUserConfig({
           text: '浏览器相关',
           children: [
             '/browser/event-mechanism/',
-            '/browser/security/'
+            {
+              text: '浏览器安全策略',
+              collapsible: true,
+              children: [
+                '/browser/security/cors/',
+              ]
+            }
           ]
         }
       ]
