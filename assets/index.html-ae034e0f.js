@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-5f90abf6","path":"/application-layer-protocol/","title":"应用层协议","lang":"zh-CN","frontmatter":{"title":"应用层协议","description":"应用层协议"},"headers":[],"git":{"updatedTime":1673759218000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"application-layer-protocol/index.md"}');export{t as data};

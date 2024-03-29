@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-a268883e","path":"/reference-model/","title":"网络参考模型","lang":"zh-CN","frontmatter":{"title":"网络参考模型","description":"网络参考模型"},"headers":[],"git":{"updatedTime":1673759218000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"reference-model/index.md"}');export{e as data};
