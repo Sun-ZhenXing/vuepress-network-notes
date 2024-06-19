@@ -8,17 +8,17 @@ export const config = {
   /**
    * 项目标题
    */
-  title: '标题',
+  title: '计算机网络',
   /**
    * 项目描述
    */
-  description: '描述',
+  description: '计算机网络笔记',
   /**
    * 作者信息
    */
   author: {
-    name: '作者',
-    url: '',
+    name: 'Alex Sun',
+    url: 'https://blog.alexsun.top/',
   },
   /**
    * 页脚
@@ -27,9 +27,9 @@ export const config = {
   /**
    * 项目主页
    */
-  hostname: '',
+  hostname: 'https://blog.alexsun.top/vuepress-network-notes/',
   /**
    * 仓库地址
    */
-  repo: '',
+  repo: 'Sun-ZhenXing/vuepress-network-notes',
 }
